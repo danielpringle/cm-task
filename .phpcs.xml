@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset name="Nachala Coding Standards"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+
+	<description>Custom ruleset for Nachala.</description>
+
+	<!-- For help in understanding this file: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml -->
+	<!-- For help in using PHPCS: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Usage -->
+
+	<!-- What to scan -->
+	<file>.</file>
+	<!-- Ignoring Files and Folders:
+		https://github.com/squizlabs/PHP_CodeSniffer/wiki/Advanced-Usage#ignoring-files-and-folders -->
+	<exclude-pattern>/node_modules/</exclude-pattern>
+	<exclude-pattern>/vendor/</exclude-pattern>
+
+	<!-- Check for correct text domain on all translatable strings. -->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="nachala"/>
+			</property>
+		</properties>
+	</rule>
+
+
+</ruleset>
