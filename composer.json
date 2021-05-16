@@ -1,0 +1,28 @@
+{
+	"name": "dpuk/clever-marketing",
+	"type": "wordpress-plugin",
+	"description": "Landing page template for Clever Marketing",
+	"homepage": "https://danielpringle.co.uk",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Daniel Pringle",
+			"email": "dan@danielpringle.co.uk"
+		}
+	],
+	"require-dev": {
+		"php": "^5.6 || ^7",
+		"dealerdirect/phpcodesniffer-composer-installer": "*",
+		"phpcompatibility/phpcompatibility-wp": "*",
+		"squizlabs/php_codesniffer": "*",
+		"wp-coding-standards/wpcs": "*"
+	},
+	"config": {
+		"sort-order": true
+	},
+	"scripts": {
+		"install-codestandards": "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run",
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf"
+	}
+}
