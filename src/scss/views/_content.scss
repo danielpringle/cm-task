@@ -1,0 +1,44 @@
+.clever-marketing {
+	.one-half {
+		width: 100%;
+		margin: 0;
+		padding-left: 15px;
+		padding-right: 15px;
+		//padding-top: 35px;
+
+		@media only screen and (min-width: 600px) {
+			width: 50%;
+		}
+	}
+
+	.form {
+		float: right;
+		margin: 0;
+	}
+
+	.fiftyfifty {
+		background-color: #eee;
+	}
+
+	.content {
+		float: left;
+	}
+
+	.video {
+		float: right;
+		margin: 0;
+	}
+
+	.carousel {
+		float: left;
+	}
+
+	.testimonial-wrap {
+		background-color: #fff;
+		padding: 5px;
+
+		@media only screen and (min-width: 600px) {
+			padding: 25px;
+		}
+	}
+}

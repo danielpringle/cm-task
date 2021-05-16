@@ -1,0 +1,55 @@
+.clever-marketing {
+	.related-services {
+		h3 {
+			font-family: Playfair Display;
+			font-size: 24px;
+			color: #408bb4;
+			text-align: center;
+		}
+
+		ul {
+			margin-top: 35px;
+		}
+
+		li {
+			font-family: 'Roboto Slab';
+			font-size: 16px;
+			color: #000;
+			text-align: left;
+			letter-spacing: 0.01rem;
+			font-weight: 400;
+		}
+		.border {
+			height: 1px;
+			border-top: 1px solid #8f968f;
+			display: block;
+			position: relative;
+			top: 1px;
+			width: 100%;
+		}
+
+		.flex-container {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.one-quarter {
+			background-color: #eee;
+			//width: 25%; //282px;
+			//margin: 10px;
+			flex: 100%;
+			margin: 0;
+
+			@media only screen and (min-width: 960px) {
+				flex: 24%;
+				margin: 0.5%;
+			}
+		}
+
+		.column-wrap {
+			padding-top: 35px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}

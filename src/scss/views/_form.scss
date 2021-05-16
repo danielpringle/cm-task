@@ -1,0 +1,102 @@
+.clever-marketing {
+	.form-content {
+		background-color: #8f968f;
+		border-style: solid;
+		border-color: #cccccc;
+		margin: 15px;
+		padding: 15px;
+		display: block;
+		font-family: 'Roboto Slab';
+
+		p {
+			margin-bottom: 15px;
+		}
+
+		a {
+			color: #8e0c2d;
+			border-bottom-color: #8e0c2d;
+		}
+	}
+
+	.wpcf7-form-control wpcf7-text {
+		border: 1px solid #e80000;
+	}
+
+	input.wpcf7-form-control {
+		padding: 3px;
+	}
+
+	.form-title {
+		color: white;
+		font-size: 24px;
+	}
+
+	p.form-title {
+		color: white;
+		font-size: 24px;
+	}
+
+	.form-text {
+		color: white;
+		font-size: 16px;
+	}
+
+	.form-info {
+		a {
+			color: #8e0c2d;
+			border-bottom-color: #8e0c2d;
+		}
+	}
+
+	.wpcf7-list-item {
+		display: inline-block;
+		margin: 0;
+	}
+
+	input#form-submit {
+		font-size: 24px;
+		background-color: #8e0c2d;
+		color: #f4f4f4;
+		font-family: Roboto Slab;
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: 0.01rem;
+		line-height: 1;
+		text-transform: none;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 15px 30px;
+		border-radius: 5px;
+		border: 2px solid #8f968f;
+	}
+
+	input#form-submit:hover {
+		background-color: #8f968f;
+		border: 2px solid #ffffff;
+	}
+
+	.acceptance {
+		color: #fff;
+	}
+	.asterix {
+		color: #8e0c2d;
+	}
+
+	.footer-form {
+		float: none;
+		width: 100%;
+		background-color: #eeefee;
+		margin-top: 72px;
+		margin-bottom: 72px;
+
+		.form-content {
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+
+			@media only screen and (min-width: 600px) {
+				width: 552px;
+			}
+		}
+	}
+}

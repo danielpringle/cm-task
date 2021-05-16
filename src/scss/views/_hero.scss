@@ -1,0 +1,27 @@
+.clever-marketing {
+	.full-width.landing-row .image-holder {
+		background-color: #3c8ab6;
+	}
+
+	.image-holder .desktop {
+		display: none;
+	}
+
+	.image-holder .mobile {
+		display: block;
+	}
+
+	@media only screen and (min-width: 380px) {
+		.image-holder .desktop {
+			display: block;
+		}
+
+		.image-holder .mobile {
+			display: none;
+		}
+	}
+
+	.full-width.image-holder.landing-row.clearfix {
+		margin-top: 150px;
+	}
+}
